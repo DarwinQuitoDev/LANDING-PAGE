@@ -1,0 +1,25 @@
+export const pos = [
+  {
+    id: '', // ID autoasignado por Firebase
+    companyName: '', // Nombre de la compañía
+    customerId: '', // ID del cliente
+    orderDate: '', // Fecha de la orden (ISO 8601 format)
+    totalAmount: 0, // Total de la venta
+    totalIva: 0, // Total del IVA
+    totalWithIva: 0, // Total de la venta más IVA
+    discountId: '', // ID del descuento aplicado
+    totalWithTaxAndDiscount: 0, // Total de la venta con IVA y descuento
+    typeState: '', // Estado de la orden (Ej: 'Pendiente', 'Completada')
+    detail: [
+      {
+        productId: '', // ID del producto
+        quantity: 0, // Cantidad del producto
+        priceUnit: 0, // Precio por unidad
+        totalAmount: 0, // Total del producto sin IVA
+        totalTax: 0, // Total del IVA por producto
+        totalWithTax: 0 // Total con IVA
+      }
+    ]
+  },
+  // Otros registros de punto de venta...
+];

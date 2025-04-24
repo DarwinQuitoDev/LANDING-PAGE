@@ -1,0 +1,17 @@
+export const users = [
+  {
+    id: '', // ID autoasignado por Firebase
+    userName: '', // Nombre de usuario
+    fullName: '', // Nombres completos del usuario
+    email: '', // Email del usuario
+    isEnable: true, // Si el usuario está habilitado o no (true/false)
+    processCompleted: false, // Si completó el registro (true/false)
+    profilePicture: '', // URL de la foto de perfil
+    phoneNumber: '', // Número telefónico
+    isCustomer: false, // Es cliente (true/false)
+    isSupplier: false, // Es proveedor (true/false)
+    isAdmin: false, // Es administrador (true/false)
+    dni: '' // Documento de identificación
+  },
+  // Otros usuarios...
+];

@@ -1,0 +1,11 @@
+export const taxes = [
+  {
+    id: '', // Autoasignacion de Firebase
+    code: '', // Codigo de impuesto
+    name: '', // Nombres del impuesto
+    rate: '', // Cantidad o porcentaje en numeros
+    isEnable: 0, // Si esta habilidato
+    isFixed: '', // Si es fijo
+  },
+  // Puedes agregar más objetos de productos aquí
+];

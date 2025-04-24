@@ -1,0 +1,35 @@
+export const items = [
+  {
+    id: '', // ID autoasignado por Firebase
+    title: '', // Título del producto
+    category: '', // Categoría del producto (Laptops, Monitores, Accesorios, etc.)
+    rating: 0, // Calificación del producto (1-5)
+    price: '', // Precio del producto
+    linkImg: placeholderImg, // URL de la imagen del producto
+    description: '', // Descripción del producto
+    onfire: false, // Indica si el producto es uno de los más vendidos (true/false)
+    enable: true, // Indica si el producto está activo o no (true/false)
+    taxId: '', // ID del impuesto aplicable
+    specifications: {
+      processor: '', // Procesador (aplicable a computadoras y laptops)
+      ram: '', // Memoria RAM (aplicable a computadoras y laptops)
+      screenSize: '', // Tamaño de pantalla (aplicable a monitores, laptops, TV)
+      numericKeyboard: false, // Si tiene teclado numérico (solo para laptops) (true/false)
+      operatingSystem: '', // Sistema operativo (aplicable a computadoras y laptops)
+      storage: '', // Almacenamiento (aplicable a computadoras y laptops)
+      graphicsCard: '', // Tarjeta gráfica (aplicable a computadoras y laptops)
+      storageType: '', // Tipo de almacenamiento (HDD, SSD)
+      resolution: '', // Resolución (aplicable a monitores, TV)
+      type: '', // Tipo de producto (Ratón, Olla de presión, etc.)
+      connectivity: [], // Conectividad (HDMI, USB, Bluetooth, etc.)
+      refreshRate: '', // Tasa de refresco (aplicable a monitores, TV)
+      batteryLife: '', // Duración de la batería (aplicable a dispositivos portátiles)
+      material: '', // Material del producto (aplicable a electrodomésticos, accesorios)
+      capacities: '', // Capacidades (aplicable a electrodomésticos multifuncionales)
+      smartTV: false, // Si es un Smart TV (solo para TV) (true/false)
+      integratedSpeakers: false, // Si tiene altavoces integrados (aplicable a monitores, TV) (true/false)
+      dimensions: '' // Dimensiones del producto
+    }
+  },
+  // Otros productos...
+];
